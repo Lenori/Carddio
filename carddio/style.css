@@ -1,0 +1,398 @@
+/*
+Theme Name: Carddio
+Author: Leo Lenori and Carol Rodrigues
+Description: Wordpress template for Carddio website.
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+.fas {
+
+    line-height: inherit !important;
+
+}
+
+a, a:visited, a:hover {
+
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif !important;
+    min-height: 4000px;
+
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 1600px !important;
+    }
+
+}
+
+.header-menu-toggle {
+
+    display: none;
+    width: 100%;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    color: #0095da;
+    text-align: center;
+
+}
+
+.header-logo {
+
+    height: 200px;
+    width: 20%;
+    float: left;
+
+}
+
+.header-logo img {
+
+    max-width: 100%;
+
+}
+
+.header-phone {
+
+    height: 200px;
+    width: 20%;
+    float: left;
+    line-height: 200px;
+
+}
+
+.header-phone i, .header-phone p {
+
+    float: left;
+    color: #2fcc2f;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.header-phone p {
+
+    margin-left: 10px;
+
+}
+
+.header-menu {
+
+    height: 200px;
+    width: 60%;
+    float: left;
+    text-align: center;
+    line-height: 200px;
+
+}
+
+.header-menu ul {
+
+    list-style-type: none;
+
+}
+
+.header-menu li {
+
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-size: 19px;
+    border-right: 1px solid black;
+
+}
+
+.header-menu a:last-child li {
+
+    border-right: none !important;
+
+}
+
+.home-slider {
+
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.home-slider img {
+
+    width: 100%;
+
+}
+
+.slide-buttons {
+
+    text-align: center;
+    width: 50%;
+    float: left;
+    position: absolute;
+    margin: 10% 0;
+
+}
+
+.slide-buttons p {
+
+    background-color: #0095da;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    font-size: 29px;
+    margin: 30px auto;
+    text-transform: uppercase;
+
+}
+
+.carddio-links {
+
+    width: 100%;
+    padding: 50px 0;
+    overflow: hidden;
+
+}
+
+.carddio-link {
+
+    width: 23%;
+    margin-left: 25px;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.carddio-link img {
+
+    max-width: 95%;
+    margin: auto;
+
+}
+
+.carddio-link h3 {
+
+    color: #0095da;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 9px;
+
+}
+
+.carddio-link p {
+
+    font-size: 17px;
+    text-align: left;
+    margin-left: 9px;
+
+}
+
+.carddio-depoimentos {
+
+    padding: 60px 0;
+    background-color: #0095da;
+    overflow: auto;
+
+}
+
+.depoimentos-wrapper {
+
+    width: 50%;
+    margin: auto;
+
+}
+
+.carddio-depoimento {
+
+    width: 50%;
+    float: left;
+    color: white;
+
+}
+
+.depoimento-quote {
+
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #a2d6ef;
+
+}
+
+.depoimento-text {
+
+    float: left;
+    width: 70%;
+
+}
+
+.depoimento-text p {
+
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.depoimento-divisor {
+
+    width: 75px;
+    border-bottom: 3px solid white;
+    height: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+
+}
+
+.depoimento-nome {
+
+    font-weight: 600;
+    font-size: 27px;
+    display: block;
+    margin: 0 0 -5px;
+
+}
+
+.depoimento-since {
+
+    font-style: italic;
+
+}
+
+.carddio-exames {
+
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 50px;
+    overflow: auto;
+
+}
+
+.carddio-exames h3 {
+
+    font-weight: 600;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+.carddio-exame-button {
+
+    width: 50%;
+    font-size: 24px;
+    color: #0095da;
+    margin: auto;
+    float: left;
+    padding: 20px;
+
+}
+
+.carddio-exame-button span {
+
+    margin-right: 15px;
+
+}
+
+.carddio-exame-button i {
+
+    float: left;
+    margin: 0 10px 0 90px;
+
+}
+
+.carddio-exame-button p {
+
+    text-transform: uppercase;
+    margin: auto;
+    padding: 40px;
+    background-color: #efefef;
+
+}
+
+.carddio-equipe {
+
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #efefef;
+
+}
+
+.carddio-equipe-items {
+
+    width: 1450px;
+    margin: 35px auto;
+    overflow: hidden;
+
+}
+
+.equipe-item {
+
+    width: 25%;
+    text-align: center;
+    margin: 40px 0;
+    float: left;
+
+}
+
+.equipe-item img {
+
+    width: 50%;
+    border-radius: 50%;
+
+}
+
+.equipe-item h3 {
+
+    font-weight: 600;
+    color: #0095da;
+
+}
+
+.equipe-item p {
+
+    margin: 0;
+    font-style: italic;
+
+}
+
+.equipe-item span {
+
+    font-weight: 600;
+
+}
+
+.carddio-equipe-button {
+
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #0095da;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    margin: 0 auto 50px;
+
+}
+
+.carddio-equipe-arrow {
+
+    color: #0095da;
+
+}
+
+.carddio-equipe-button span {
+
+    margin-left: 15px;
+
+}

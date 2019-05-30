@@ -1,0 +1,5 @@
+<?php
+
+/**
+ * why so curious?
+ */

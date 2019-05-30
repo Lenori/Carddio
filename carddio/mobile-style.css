@@ -1,0 +1,130 @@
+@media only screen and (max-width: 768px) {
+
+    .header-menu {
+        display: none;
+    }
+
+    .header-menu-toggle {
+        display: block;
+    }
+
+    .header-logo, .header-phone {
+        width: 50% !important;
+        height: 80px !important;
+        text-align: center;
+    }
+
+    .header-logo img {
+        max-height: 100%;
+    }
+
+    .header-phone {
+        line-height: 7.7em !important;
+    }
+
+    .header-phone p {
+        margin: 0 0 0 0 !important;
+        float: none;
+        font-weight: 600;
+        font-size: 14px;
+        vertical-align: bottom;
+    }
+
+    .header-phone i {
+        display: none;
+    }
+
+    .home-slider {
+        height: 30vh;
+    }
+
+    .home-slider img {
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+    }
+
+    .slide-buttons {
+        width: 100%;
+        z-index: 100;
+    }
+
+    .slide-buttons p {
+        font-size: 11px;
+        width: 50%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .carddio-links {
+        padding: 30px 0;
+    }
+
+    .carddio-link {
+        width: 70%;
+        margin: 0 auto 30px;
+        float: none;
+    }
+
+    .carddio-link:last-child {
+        margin: 0 auto;
+    }
+
+    .carddio-link h3{
+        text-align: center;
+        font-size: 15px;
+        margin: 10px auto;
+    }
+
+    .carddio-link p {
+        text-align: center;
+        font-size: 12px;
+        margin: 10px auto;
+    }
+
+    .depoimentos-wrapper {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .carddio-depoimento {
+        width: 100%;
+        margin: 0 auto 45px;
+    }
+
+    .carddio-depoimento:last-child {
+        margin: auto;
+    }
+
+    .depoimento-quote {
+        float: none;
+        margin: 0 0 10px;
+    }
+
+    .depoimento-text {
+        width: 90%;
+        margin: auto;
+        float: none;
+    }
+
+    .depoimento-divisor {
+        margin: 10px auto;
+    }
+
+    .carddio-exames {
+        width: 90%;
+        padding: 8px;
+    }
+
+    .carddio-exame-button {
+        width: 100%;
+    }
+
+    .carddio-exame-button p {
+        padding: 25px;
+    }
+    .carddio-exame-button span {
+
+    }
+
+}
