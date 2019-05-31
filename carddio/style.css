@@ -23,7 +23,6 @@ a, a:visited, a:hover {
 body {
 
     font-family: 'Open Sans', sans-serif !important;
-    min-height: 4000px;
 
 }
 
@@ -32,6 +31,67 @@ body {
     .container {
         width: 1600px !important;
     }
+
+}
+
+.botao-topo {
+
+    color: #0095da;
+    font-size: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+
+}
+
+.carddio-form input, .carddio-form textarea {
+
+    width: 98%;
+    background-color: #efefef;
+    border: none;
+    padding: 13px 13px 13px 25px;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    color: #7d7575;
+
+}
+
+.carddio-form textarea {
+
+    height: 200px;
+
+}
+
+.carddio-form input[class=carddio-input-half] {
+
+    width: 48%;
+    float: left;
+    margin-right: 2% !important;
+
+}
+
+.carddio-form button {
+
+    border: none !important;
+
+}
+
+.carddio-button-blue {
+
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #0095da;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    margin: 0 auto 50px;
+
+}
+
+.carddio-button-blue span {
+
+    margin-left: 15px;
 
 }
 
@@ -143,13 +203,9 @@ body {
 
 .slide-buttons p {
 
-    background-color: #0095da;
-    color: white;
-    padding: 20px;
-    width: 60%;
-    font-size: 29px;
-    margin: 30px auto;
-    text-transform: uppercase;
+    width: 50%;
+    height: 75px;
+    line-height: 46px;
 
 }
 
@@ -164,6 +220,7 @@ body {
 .carddio-link {
 
     width: 23%;
+    min-height: 370px;
     margin-left: 25px;
     float: left;
     text-align: center;
@@ -272,7 +329,6 @@ body {
 .carddio-exames {
 
     text-align: center;
-    width: 70%;
     margin: 0 auto 50px;
     overflow: auto;
 
@@ -288,7 +344,7 @@ body {
 
 .carddio-exame-button {
 
-    width: 50%;
+    width: 33%;
     font-size: 24px;
     color: #0095da;
     margin: auto;
@@ -372,27 +428,288 @@ body {
 
 }
 
-.carddio-equipe-button {
-
-    text-transform: uppercase;
-    text-align: center;
-    background-color: #0095da;
-    padding: 15px;
-    color: white;
-    font-size: 20px;
-    width: 20%;
-    margin: 0 auto 50px;
-
-}
-
 .carddio-equipe-arrow {
 
     color: #0095da;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 6%;
 
 }
 
-.carddio-equipe-button span {
+.carddio-pre-agendamento {
 
-    margin-left: 15px;
+    padding: 60px 0 0 0;
+    overflow: hidden;
+
+}
+
+.pre-agendamento-text {
+
+    width: 45%;
+    float: left;
+
+}
+
+.pre-agendamento-text h3 {
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.pre-agendamento-form {
+
+    width: 55%;
+    float: left;
+
+}
+
+.carddio-fale-com {
+
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #efefef;
+
+}
+
+.carddio-fale-com h3 {
+
+    font-weight: 600;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+.carddio-fale-com-buttons {
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.carddio-fale-com-buttons p {
+
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.carddio-footer {
+
+    background-color: #ec223b;
+    padding: 70px;
+    color: white;
+    overflow: auto;
+
+}
+
+.carddio-footer-info {
+
+    margin: auto;
+    width: 1300px;
+
+}
+
+.carddio-horario {
+
+    font-weight: 800;
+
+}
+
+.carddio-footer-text, .carddio-footer-menu {
+
+    float: left;
+    width: 50%;
+
+}
+
+.carddio-footer-menu ul {
+
+    width: 50%;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+.page-content {
+
+    overflow: auto;
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: #efefef;
+
+}
+
+.page-content h3 {
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 60px 0;
+
+}
+
+.page-content h4 {
+
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+.page-image, .page-text {
+
+    width: 50%;
+    float: left;
+    padding-right: 50px;
+
+}
+
+.page-image img {
+
+    width: 100%;
+
+}
+
+.page-text p {
+
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.convenios-image {
+
+    width: 25%;
+    float: left;
+    padding-right: 50px;
+
+}
+
+.convenios-text {
+
+    width: 75%;
+    float: left;
+    padding-right: 50px;
+
+}
+
+.convenios-image img {
+
+    width: 100%;
+
+}
+
+.convenios-text p {
+
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: none !important;
+
+}
+
+.convenios-text ul {
+
+    width: 16.66%;
+    float: left;
+    list-style-type: none;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.page-medicos {
+
+    margin: 20px auto !important;
+
+}
+
+.carddio-exame-page-button {
+
+    width: 25%;
+    padding: 20px;
+    float: left;
+
+}
+
+.carddio-exame-page-button p {
+
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.page-exames-info {
+
+    display: none;
+
+}
+
+.carddio-exame-page-button span {
+
+    margin-right: 10px;
+
+}
+
+.exame-page-close-button {
+
+    overflow: auto;
+    color: #ec223b;
+    width: 100%;
+
+}
+
+.exame-page-close {
+
+    font-size: 25px;
+    margin: 0 6px 10px 0;
+
+}
+
+.exame-page-close-button p {
+
+    font-weight: 600;
+    text-transform: uppercase;
+    float: left;
+    margin: 7px;
+
+}
+
+.carddio-contato-item {
+
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.carddio-contato-item p {
+
+    width: 100%;
+
+}
+
+.carddio-contato-item span {
+
+    color: #0095da;
+    margin-bottom: 15px;
+    font-size: 60px;
+
+}
+
+.carddio-localizacao {
+
+    width: 100%;
+    height: 600px;
 
 }

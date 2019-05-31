@@ -9,7 +9,7 @@
 
         <span class="carddio-equipe-arrow equipe-arrow-left fas fa-chevron-left"></span>
 
-        <div class="equipe-item">
+        <div class="equipe-item" id="equipe-item-01">
 
             <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
 
@@ -19,7 +19,7 @@
 
         </div>
 
-        <div class="equipe-item">
+        <div class="equipe-item" id="equipe-item-02">
 
             <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
 
@@ -29,7 +29,7 @@
 
         </div>
 
-        <div class="equipe-item">
+        <div class="equipe-item" id="equipe-item-03">
 
             <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
 
@@ -39,7 +39,7 @@
 
         </div>
 
-        <div class="equipe-item">
+        <div class="equipe-item" id="equipe-item-04">
 
             <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
 
@@ -53,7 +53,7 @@
 
     </div>
 
-    <p class="carddio-equipe-button">Veja a nossa equipe <span class="fas fa-chevron-circle-right"></span></p>
+    <a href="<?php echo get_site_url() ;?>/medicos"><p class="carddio-button-blue">Veja a nossa equipe <span class="fas fa-chevron-circle-right"></span></p></a>
 
 </div>
 

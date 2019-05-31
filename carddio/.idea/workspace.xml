@@ -8,63 +8,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\mobile-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9725">
-              <caret line="389" column="19" selection-start-line="389" selection-start-column="19" selection-end-line="389" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-equipe.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>header-phone</find>
+      <find>link</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\js\mobile-style.css" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\header.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-slide.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-depoimentos.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-links.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-slide.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-pre-agendamento.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-equipe.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-falecom.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-exames.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-home.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-links.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-a-carddio.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-convenios.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-medicos.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-contato.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-slide.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-pre-agendamento.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-exames.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-exames.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-equipe.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\footer.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\js\main.js" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\header.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\mobile-style.css" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-equipe.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-links.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\style.css" />
       </list>
     </option>
@@ -117,26 +109,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559196772464</updated>
-      <workItem from="1559196773986" duration="16052000" />
+      <workItem from="1559196773986" duration="16650000" />
+      <workItem from="1559278489347" duration="16467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16052000" />
+    <option name="totallyTimeSpent" value="33117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32936078" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -144,11 +130,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="right" x="1276" y="82" width="619" height="923" id="Remote Host" type="WINDOWED" visible="true" weight="0.32995737" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="1276" y="82" width="619" height="923" id="Remote Host" order="3" type="WINDOWED" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">

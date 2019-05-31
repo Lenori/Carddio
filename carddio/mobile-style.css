@@ -1,5 +1,22 @@
 @media only screen and (max-width: 768px) {
 
+    .carddio-button-blue {
+        font-size: 11px;
+        width: 50%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .carddio-form input, .carddio-form textarea {
+        width: 90%;
+    }
+
+    .carddio-form input[class=carddio-input-half] {
+        width: 90%;
+        float: none;
+        margin-right: 0 !important;
+    }
+
     .header-menu {
         display: none;
     }
@@ -49,10 +66,9 @@
     }
 
     .slide-buttons p {
-        font-size: 11px;
         width: 50%;
-        padding: 15px;
-        margin: 10px auto;
+        height: inherit;
+        line-height: inherit;
     }
 
     .carddio-links {
@@ -63,6 +79,7 @@
         width: 70%;
         margin: 0 auto 30px;
         float: none;
+        min-height: 250px;
     }
 
     .carddio-link:last-child {
@@ -79,6 +96,7 @@
         text-align: center;
         font-size: 12px;
         margin: 10px auto;
+        width: 80%;
     }
 
     .depoimentos-wrapper {
@@ -114,6 +132,7 @@
     .carddio-exames {
         width: 90%;
         padding: 8px;
+        margin: 0 auto 20px;
     }
 
     .carddio-exame-button {
@@ -122,9 +141,138 @@
 
     .carddio-exame-button p {
         padding: 25px;
+        font-size: 21px;
     }
-    .carddio-exame-button span {
 
+    .carddio-exame-button span {
+        display: none;
+    }
+
+    .carddio-equipe {
+        padding-bottom: 20px;
+    }
+
+    .carddio-equipe-items {
+        width: 100%;
+    }
+
+    .equipe-item {
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    .equipe-arrow-left {
+        left: 20px;
+        font-size: 35px;
+    }
+
+    .equipe-arrow-right {
+        right: 20px;
+        font-size: 35px;
+    }
+
+    .carddio-pre-agendamento {
+        padding: 21px 0;
+    }
+
+    .pre-agendamento-text {
+        width: 90%;
+        text-align: center;
+        float: none;
+        margin: 0 auto 30px;
+    }
+
+    .pre-agendamento-form {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .carddio-fale-com-buttons{
+        margin-bottom: 45px;
+    }
+
+    .carddio-fale-com-buttons p {
+        width: inherit;
+        float: inherit;
+        margin-right: inherit;
+    }
+
+    .carddio-footer-info {
+        width: 90%;
+    }
+
+    .carddio-footer-text, .carddio-footer-menu {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .carddio-footer-menu ul {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .page-content h3, h4 {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .page-image, .page-text {
+        width: 90%;
+        float: none;
+        margin: auto;
+        padding-right: 0;
+    }
+
+    .page-text p {
+        text-align: center;
+        margin: 35px auto -35px;
+    }
+
+    .convenios-image, .convenios-text {
+        width: 90%;
+        float: none;
+        margin: auto;
+        padding-right: 0;
+    }
+
+    .convenios-text p {
+        text-align: center;
+    }
+
+    .convenios-text ul {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .carddio-exame-page-button {
+        width: 90%;
+        padding: 20px;
+        margin: auto;
+        float: none;
+    }
+
+    .exame-page-close-button {
+        text-align: center;
+    }
+
+    .exame-page-close {
+        float: none;
+    }
+
+    .exame-page-close-button p {
+        float: none;
+    }
+
+    .carddio-contato-item {
+        float: none;
+        width: 90%;
+        padding: 0;
+        margin: 0 auto 50px;
     }
 
 }

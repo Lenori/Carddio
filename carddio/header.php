@@ -14,7 +14,7 @@ date_default_timezone_set('America/Sao_Paulo');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Carddio</title>
+    <title><?php echo get_bloginfo('name') ?></title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
@@ -34,7 +34,7 @@ date_default_timezone_set('America/Sao_Paulo');
 
             <div class="header-logo">
 
-                <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/carddio-logo.jpg" alt="carddio-logo" />
+                <a href="<?php echo get_site_url() ;?>/"><img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/carddio-logo.jpg" alt="carddio-logo" /></a>
 
             </div>
 
@@ -42,10 +42,10 @@ date_default_timezone_set('America/Sao_Paulo');
 
                 <ul>
 
-                    <a href="#"><li>Início</li></a>
-                    <a href="#"><li>A Cárddio</li></a>
-                    <a href="#"><li>Serviços</li></a>
-                    <a href="#"><li>Contato</li></a>
+                    <a href="<?php echo get_site_url() ;?>/"><li>Home</li></a>
+                    <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><li>A Cárddio</li></a>
+                    <a href="<?php echo get_site_url() ;?>/exames"><li>Serviços</li></a>
+                    <a href="<?php echo get_site_url() ;?>/contato"><li>Contato</li></a>
 
                 </ul>
 
