@@ -22,7 +22,7 @@ get_header();
 
                 <span class="fas fa-comment"></span>
 
-                <p class="carddio-button-blue">Chat</p>
+                <p class="carddio-button-blue carddio-open-chat">Chat</p>
 
             </div>
 

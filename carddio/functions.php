@@ -11,3 +11,84 @@ $urlJS = get_bloginfo( "template_directory" );
 wp_localize_script( 'wp-theme-js', 'urlWordpressJS', $urlJS );
 
 //You can now use 'urlWordpressJS' to call the theme path inside JS files
+
+function menu_equipe_carddio() {
+
+    add_menu_page(
+        'Equipe',                       // Tag da página
+        'Equipe Cárddio',               // Título do menu
+        'manage_options',               // Nível administrativo
+        'Equipe',                       // Slug
+        'equipe_carddio',               // Função
+        'dashicons-admin-settings',     // Ícone do menu
+        6                               // Posição
+    );
+
+}
+
+function equipe_carddio() {
+
+    include('admin/admin-equipe-carddio.php');
+
+} add_action('admin_menu', 'menu_equipe_carddio');
+
+
+function menu_depoimentos_carddio() {
+
+    add_menu_page(
+        'Depoimentos',                       // Tag da página
+        'Depoimentos Cárddio',               // Título do menu
+        'manage_options',                    // Nível administrativo
+        'Depoimentos',                       // Slug
+        'depoimentos_carddio',               // Função
+        'dashicons-admin-settings',          // Ícone do menu
+        6                                    // Posição
+    );
+
+}
+
+function depoimentos_carddio() {
+
+    include('admin/admin-depoimentos-carddio.php');
+
+} add_action('admin_menu', 'menu_depoimentos_carddio');
+
+function menu_exames_carddio() {
+
+    add_menu_page(
+        'Exames',                       // Tag da página
+        'Exames Cárddio',               // Título do menu
+        'manage_options',               // Nível administrativo
+        'Exames',                       // Slug
+        'exames_carddio',              // Função
+        'dashicons-admin-settings',     // Ícone do menu
+        6                               // Posição
+    );
+
+}
+
+function exames_carddio() {
+
+    include('admin/admin-exames-carddio.php');
+
+} add_action('admin_menu', 'menu_exames_carddio');
+
+function menu_convenios_carddio() {
+
+    add_menu_page(
+        'Convenios',                       // Tag da página
+        'Convênios Cárddio',               // Título do menu
+        'manage_options',               // Nível administrativo
+        'Convenios',                       // Slug
+        'convenios_carddio',              // Função
+        'dashicons-admin-settings',     // Ícone do menu
+        6                               // Posição
+    );
+
+}
+
+function convenios_carddio() {
+
+    include('admin/admin-convenios-carddio.php');
+
+} add_action('admin_menu', 'menu_convenios_carddio');

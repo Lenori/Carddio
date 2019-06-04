@@ -40,12 +40,53 @@ date_default_timezone_set('America/Sao_Paulo');
 
             <div class="header-menu">
 
+                <span class="header-menu-close fas fa-times-circle"></span>
+
                 <ul>
 
                     <a href="<?php echo get_site_url() ;?>/"><li>Home</li></a>
-                    <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><li>A Cárddio</li></a>
-                    <a href="<?php echo get_site_url() ;?>/exames"><li>Serviços</li></a>
-                    <a href="<?php echo get_site_url() ;?>/contato"><li>Contato</li></a>
+
+                    <span class="header-menu-wrapper" data-menu="01">
+
+                        <li>A Cárddio</li>
+
+                            <div class="header-sub-menu" id="menu-01">
+
+                                <p>Pacientes</p>
+                                <a href="<?php echo get_site_url() ;?>/medicos"><p>Médicos</p></a>
+                                <a href="<?php echo get_site_url() ;?>/cardiologia-geral-e-pediatrica/"><p>Cardiologia Geral e Pediátrica</p></a>
+                                <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><p>História</p></a>
+
+                            </div>
+
+                    </span>
+
+                    <span class="header-menu-wrapper" data-menu="02">
+
+                        <li>Serviços</li>
+
+                            <div class="header-sub-menu" id="menu-02">
+
+                                <a href="<?php echo get_site_url() ;?>/exames"><p>Exames</p></a>
+                                <p>Consultas</p>
+                                <a href="<?php echo get_site_url() ;?>/convenios"><p>Convênios</p></a>
+
+                            </div>
+
+                    </span>
+
+                    <span class="header-menu-wrapper" data-menu="03">
+
+                        <li>Contato</li>
+
+                            <div class="header-sub-menu" id="menu-03">
+
+                                <a href="<?php echo get_site_url() ;?>/contato"><p>Contato</p></a>
+                                <p>Localização</p>
+
+                            </div>
+
+                    </span>
 
                 </ul>
 

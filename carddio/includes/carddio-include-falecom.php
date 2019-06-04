@@ -7,9 +7,9 @@
 
     <div class="carddio-fale-com-buttons">
 
-        <a href="#"><p class="carddio-button-blue">Chat</p></a>
-        <a href="#"><p class="carddio-button-blue">(61) 3351-8393</p></a>
-        <a href="#"><p class="carddio-button-blue">Receba um contato da Cárddio</p></a>
+        <p class="carddio-button-blue carddio-open-chat">Chat</p>
+        <p class="carddio-button-blue">(61) 3351-8393</p>
+        <p class="carddio-button-blue">Receba um contato da Cárddio</p>
 
     </div>
 

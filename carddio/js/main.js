@@ -36,6 +36,36 @@ $(document).ready(function() {
 
     });
 
+    $('.header-menu-wrapper').hover(function () {
+
+        $('#menu-'+ $(this).attr('data-menu') +'').show();
+
+    },
+
+    function() {
+
+        $('#menu-'+ $(this).attr('data-menu') +'').hide();
+
+    });
+
+    $('.header-sub-menu').hover(function() {
+
+        $(this).show();
+
+    });
+
+    $('.header-menu-toggle').on('click', function() {
+
+        $('.header-menu').show();
+
+    });
+
+    $('.header-menu-close').on('click', function() {
+
+        $('.header-menu').hide();
+
+    });
+
     $('.carddio-exame-page-button').on('click', function() {
 
         $('.carddio-exame-page-button').hide();
@@ -53,6 +83,12 @@ $(document).ready(function() {
     $('.botao-topo').on('click', function() {
 
         $("html, body").animate({ scrollTop: 0 }, "slow");
+
+    });
+
+    $('.carddio-open-chat').on('click', function() {
+
+        $('.chaport-launcher-button').click();
 
     });
 
