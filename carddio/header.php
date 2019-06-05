@@ -3,6 +3,8 @@
 setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 date_default_timezone_set('America/Sao_Paulo');
 
+global $wpdb;
+
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +23,7 @@ date_default_timezone_set('America/Sao_Paulo');
     <link href="<?php echo get_bloginfo( 'template_directory' );?>/mobile-style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
+    <link rel="shortcut icon" href="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -52,7 +55,7 @@ date_default_timezone_set('America/Sao_Paulo');
 
                             <div class="header-sub-menu" id="menu-01">
 
-                                <p>Pacientes</p>
+                                <a href="<?php echo get_site_url() ;?>/paciente"><p>Pacientes</p></a>
                                 <a href="<?php echo get_site_url() ;?>/medicos"><p>Médicos</p></a>
                                 <a href="<?php echo get_site_url() ;?>/cardiologia-geral-e-pediatrica/"><p>Cardiologia Geral e Pediátrica</p></a>
                                 <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><p>História</p></a>
@@ -82,7 +85,7 @@ date_default_timezone_set('America/Sao_Paulo');
                             <div class="header-sub-menu" id="menu-03">
 
                                 <a href="<?php echo get_site_url() ;?>/contato"><p>Contato</p></a>
-                                <p>Localização</p>
+                                <a href="<?php echo get_site_url() ;?>/contato"><p>Localização</p></a>
 
                             </div>
 

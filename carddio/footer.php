@@ -24,21 +24,21 @@
 
                 <ul class="carddio-footer-menu">
 
-                    <li>A Cárddio</li>
-                    <li>Médicos</li>
-                    <li>Pacicentes</li>
-                    <li>Consultas</li>
-                    <li>Cardiologia</li>
+                    <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><li>A Cárddio</li></a>
+                    <a href="<?php echo get_site_url() ;?>/medicos"><li>Médicos</li></a>
+                    <a href="<?php echo get_site_url() ;?>/paciente"><li>Pacicentes</li></a>
+                    <a href="<?php echo get_site_url() ;?>/contato"><li>Consultas</li></a>
+                    <a href="<?php echo get_site_url() ;?>/cardiologia-geral-e-pediatrica"><li>Cardiologia</li></a>
 
                 </ul>
 
                 <ul class="carddio-footer-menu">
 
-                    <li>Histórias</li>
-                    <li>Exames</li>
-                    <li>Convênios</li>
-                    <li>Contato</li>
-                    <li>Localização</li>
+                    <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><li>História</li></a>
+                    <a href="<?php echo get_site_url() ;?>/exames"><li>Exames</li></a>
+                    <a href="<?php echo get_site_url() ;?>/convenios"><li>Convênios</li></a>
+                    <a href="<?php echo get_site_url() ;?>/contato"><li>Contato</li></a>
+                    <a href="<?php echo get_site_url() ;?>/contato"><li>Localização</li></a>
 
                 </ul>
 

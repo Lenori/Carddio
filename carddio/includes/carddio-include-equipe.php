@@ -1,4 +1,8 @@
+<?php
 
+$equipe = $wpdb->get_results('SELECT * FROM wp_equipe');
+
+?>
 
         </div>
     </div>
@@ -9,45 +13,19 @@
 
         <span class="carddio-equipe-arrow equipe-arrow-left fas fa-chevron-left"></span>
 
-        <div class="equipe-item" id="equipe-item-01">
+        <?php foreach ($equipe as $key => $data) : ?>
 
-            <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
+            <div class="equipe-item" data-equipe-item="<?php echo $data->id ?>">
 
-            <h3>Dr. Pedro Nery</h3>
-            <p>Cirurgião cardiovascular pediátrico</p>
-            <span>CRM - 01234</span>
+                <img src="<?php echo $data->img ?>" alt="carddio-equipe" />
 
-        </div>
+                <h3><?php echo $data->nome ?></h3>
+                <p><?php echo $data->especialidade ?></p>
+                <span><?php echo $data->crm ?></span>
 
-        <div class="equipe-item" id="equipe-item-02">
+            </div>
 
-            <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
-
-            <h3>Dr. Pedro Nery</h3>
-            <p>Cirurgião cardiovascular pediátrico</p>
-            <span>CRM - 01234</span>
-
-        </div>
-
-        <div class="equipe-item" id="equipe-item-03">
-
-            <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
-
-            <h3>Dr. Pedro Nery</h3>
-            <p>Cirurgião cardiovascular pediátrico</p>
-            <span>CRM - 01234</span>
-
-        </div>
-
-        <div class="equipe-item" id="equipe-item-04">
-
-            <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/doctor-01.png" alt="carddio-equipe" />
-
-            <h3>Dr. Pedro Nery</h3>
-            <p>Cirurgião cardiovascular pediátrico</p>
-            <span>CRM - 01234</span>
-
-        </div>
+        <?php endforeach; ?>
 
         <span class="carddio-equipe-arrow equipe-arrow-right fas fa-chevron-right"></span>
 

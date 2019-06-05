@@ -1,4 +1,8 @@
+<?php
 
+$depoimentos = $wpdb->get_results('SELECT * FROM wp_depoimentos');
+
+?>
 
         </div>
     </div>
@@ -7,63 +11,45 @@
 
     <div class="depoimentos-wrapper">
 
-        <div class="carddio-depoimento">
+        <?php foreach ($depoimentos as $key => $data) : ?>
 
-            <div class="depoimento-quote">
+            <div class="carddio-depoimento">
 
-                <i class="fas fa-quote-left"></i>
+                <div class="depoimento-quote">
 
-            </div>
+                    <i class="fas fa-quote-left"></i>
 
-            <div class="depoimento-text">
+                </div>
 
-                <p>
-                    Gostei muito! Ótimo atendimento.
-                    Me senti acolhida e fiz meu tratamento
-                    com todo apoio  necessário dos melhores
-                    especialistas
-                </p>
+                <div class="depoimento-text">
 
-                <div class="depoimento-divisor"></div>
+                    <p><?php echo $data->text ?></p>
 
-                <span class="depoimento-nome">Maria Rosário</span>
+                    <div class="depoimento-divisor"></div>
 
-                <span class="depoimento-since">Paciente desde 2012</span>
+                    <span class="depoimento-nome"><?php echo $data->nome ?></span>
 
-            </div>
+                    <span class="depoimento-since"><?php echo $data->referencia ?></span>
 
-        </div>
-
-        <div class="carddio-depoimento">
-
-            <div class="depoimento-quote">
-
-                <i class="fas fa-quote-left"></i>
+                </div>
 
             </div>
 
-            <div class="depoimento-text">
-
-                <p>
-                    Gostei muito! Ótimo atendimento.
-                    Me senti acolhida e fiz meu tratamento
-                    com todo apoio  necessário dos melhores
-                    especialistas
-                </p>
-
-                <div class="depoimento-divisor"></div>
-
-                <span class="depoimento-nome">Maria Rosário</span>
-
-                <span class="depoimento-since">Paciente desde 2012</span>
-
-            </div>
-
-        </div>
+        <?php endforeach; ?>
 
     </div>
 
 </div>
+
+<script>
+
+    $(document).ready(function(){
+
+        randomDepoimentos();
+
+    });
+
+</script>
 
     <div class="container">
         <div class="row">

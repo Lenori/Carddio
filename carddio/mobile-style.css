@@ -240,6 +240,10 @@
         margin-right: inherit;
     }
 
+    .carddio-ligacao form {
+        width: 90%;
+    }
+
     .carddio-footer-info {
         width: 90%;
     }
@@ -315,6 +319,38 @@
         width: 90%;
         padding: 0;
         margin: 0 auto 50px;
+    }
+
+    .carddio-paciente-content {
+        width: 90%;
+        margin: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .carddio-paciente-content p {
+        margin-bottom: 50px;
+    }
+
+    .carddio-paciente-menu {
+        width: 90%;
+        margin: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .carddio-paciente-content iframe {
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+    .carddio-paciente-menu h5 {
+        margin: 0 0 20px 0;
+    }
+
+    .carddio-paciente-menu ul {
+        margin: auto;
     }
 
 }

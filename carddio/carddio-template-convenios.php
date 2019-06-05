@@ -5,7 +5,17 @@
 
 get_header();
 
+$convenios = $wpdb->get_results('SELECT * FROM wp_convenios');
+
+$ab = ['a', 'b'];
+$cd = ['c', 'd'];
+$ei = ['e', 'f', 'g', 'h', 'i'];
+$jp = ['j', 'k', 'l', 'm', 'n', 'o', 'p'];
+$qs = ['q', 'r', 's'];
+$tz = ['t', 'u', 'v', 'w', 'x', 'y', 'z'];
+
 ?>
+
 </div>
 </div>
 
@@ -30,9 +40,16 @@ get_header();
 
                     <p>a-b</p>
 
-                    <li>AFEB</li>
-                    <li>Anchieta</li>
-                    <li>Assefaz</li>
+                    <?php foreach ($convenios as $key => $data) {
+
+                    $convenio = strtolower($data->nome);
+                    $letra = substr($convenio, 0, 1);
+
+                    echo (in_array($letra, $ab) ? '<li>'. $data->nome .'</li>' : '');
+
+                    }
+
+                    ?>
 
                 </ul>
 
@@ -40,9 +57,16 @@ get_header();
 
                     <p>c-d</p>
 
-                    <li>AFEB</li>
-                    <li>Anchieta</li>
-                    <li>Assefaz</li>
+                    <?php foreach ($convenios as $key => $data) {
+
+                        $convenio = strtolower($data->nome);
+                        $letra = substr($convenio, 0, 1);
+
+                        echo (in_array($letra, $cd) ? '<li>'. $data->nome .'</li>' : '');
+
+                    }
+
+                    ?>
 
                 </ul>
 
@@ -50,9 +74,16 @@ get_header();
 
                     <p>e-i</p>
 
-                    <li>AFEB</li>
-                    <li>Anchieta</li>
-                    <li>Assefaz</li>
+                    <?php foreach ($convenios as $key => $data) {
+
+                        $convenio = strtolower($data->nome);
+                        $letra = substr($convenio, 0, 1);
+
+                        echo (in_array($letra, $ei) ? '<li>'. $data->nome .'</li>' : '');
+
+                    }
+
+                    ?>
 
                 </ul>
 
@@ -60,9 +91,16 @@ get_header();
 
                     <p>j-p</p>
 
-                    <li>AFEB</li>
-                    <li>Anchieta</li>
-                    <li>Assefaz</li>
+                    <?php foreach ($convenios as $key => $data) {
+
+                        $convenio = strtolower($data->nome);
+                        $letra = substr($convenio, 0, 1);
+
+                        echo (in_array($letra, $jp) ? '<li>'. $data->nome .'</li>' : '');
+
+                    }
+
+                    ?>
 
                 </ul>
 
@@ -70,9 +108,16 @@ get_header();
 
                     <p>q-s</p>
 
-                    <li>AFEB</li>
-                    <li>Anchieta</li>
-                    <li>Assefaz</li>
+                    <?php foreach ($convenios as $key => $data) {
+
+                        $convenio = strtolower($data->nome);
+                        $letra = substr($convenio, 0, 1);
+
+                        echo (in_array($letra, $qs) ? '<li>'. $data->nome .'</li>' : '');
+
+                    }
+
+                    ?>
 
                 </ul>
 
@@ -80,9 +125,16 @@ get_header();
 
                     <p>t-z</p>
 
-                    <li>AFEB</li>
-                    <li>Anchieta</li>
-                    <li>Assefaz</li>
+                    <?php foreach ($convenios as $key => $data) {
+
+                        $convenio = strtolower($data->nome);
+                        $letra = substr($convenio, 0, 1);
+
+                        echo (in_array($letra, $tz) ? '<li>'. $data->nome .'</li>' : '');
+
+                    }
+
+                    ?>
 
                 </ul>
 

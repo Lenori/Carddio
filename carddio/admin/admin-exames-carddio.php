@@ -47,17 +47,7 @@ if (isset($_POST['action'])) {
 
     if ($_POST['action'] == 'cadastrar-exame') {
 
-        if (!function_exists('wp_handle_upload') ) {
-            require_once(ABSPATH . 'wp-admin/includes/file.php');
-        }
-
-        $uploadedfile = $_FILES['exame-file'];
-
-        $upload_overrides = array( 'test_form' => false );
-
-        $movefile = wp_handle_upload($uploadedfile, $upload_overrides);
-
-        if ($movefile && !isset($movefile['error'])) {
+        if (isset($_FILES['exame-file'])) {
 
             $wpdb->insert(
 
@@ -67,11 +57,14 @@ if (isset($_POST['action'])) {
 
                     'nome' => $_POST['exame-nome'],
                     'text' => $_POST['exame-texto'],
-                    'img' => $movefile['url']
+                    'img' => 'none'
 
                 )
 
             );
+
+            if($wpdb->last_error !== '')
+                $wpdb->print_error();
 
             echo "<div id=\"setting-error-settings_updated\" class=\"updated settings-error notice is-dismissible\">
     
@@ -83,11 +76,54 @@ if (isset($_POST['action'])) {
                       
                   </div>";
 
-        } else {
+        }
 
-            echo $movefile['error'];
+        else {
+
+            if (!function_exists('wp_handle_upload') ) {
+                require_once(ABSPATH . 'wp-admin/includes/file.php');
+            }
+
+            $uploadedfile = $_FILES['exame-file'];
+
+            $upload_overrides = array( 'test_form' => false );
+
+            $movefile = wp_handle_upload($uploadedfile, $upload_overrides);
+
+            if ($movefile && !isset($movefile['error'])) {
+
+                $wpdb->insert(
+
+                    'wp_exames',
+
+                    array(
+
+                        'nome' => $_POST['exame-nome'],
+                        'text' => $_POST['exame-texto'],
+                        'img' => $movefile['url']
+
+                    )
+
+                );
+
+                echo "<div id=\"setting-error-settings_updated\" class=\"updated settings-error notice is-dismissible\">
+    
+                  <p><strong>Exame adicionado.</strong></p>
+                  
+                      <button type=\"button\" class=\"notice-dismiss\">
+                        <span class=\"screen-reader-text\">Dispensar este aviso.</span>
+                      </button>
+                      
+                  </div>";
+
+            } else {
+
+                echo $movefile['error'];
+
+            }
 
         }
+
 
     }
 
@@ -107,7 +143,7 @@ if (isset($_POST['action'])) {
 
             <tr>
                 <th scope="row"><label for="exame-file">Imagem</label></th>
-                <td><input required name="exame-file" type="file" id="exame-file" class="regular-text" />
+                <td><input name="exame-file" type="file" id="exame-file" class="regular-text" />
             </tr>
 
             <tr>

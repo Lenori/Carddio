@@ -39,30 +39,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/37859402-20d1-42fc-8a62-822f4095d0cb/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="217" column="20" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-falecom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -75,6 +57,18 @@
       <find>link</find>
       <find>examess</find>
       <find>last</find>
+      <find>carddio-fale-com</find>
+      <find>button</find>
+      <find>exame</find>
+      <find>exame-info</find>
+      <find>exames-in</find>
+      <find>.click</find>
+      <find>visibl</find>
+      <find>console.loo</find>
+      <find>conso</find>
+      <find>console</find>
+      <find>page-content</find>
+      <find>convenio</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -90,29 +84,32 @@
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-include-exames.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-home.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-a-carddio.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-convenios.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-medicos.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-slide.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-pre-agendamento.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-exames.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-exames.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-equipe.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-links.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\mobile-style.css" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-paginas.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\header.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\admin\admin-equipe-carddio.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\admin\admin-depoimentos-carddio.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\admin\admin-exames-carddio.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/37859402-20d1-42fc-8a62-822f4095d0cb/console.sql" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\functions.php" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\admin\admin-convenios-carddio.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\footer.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\js\main.js" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-contato.php" />
-        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\style.css" />
         <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-falecom.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-pacientes.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\mobile-style.css" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\admin\admin-equipe-carddio.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\admin\admin-exames-carddio.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-equipe.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-exames.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\js\main.js" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-depoimentos.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\footer.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/37859402-20d1-42fc-8a62-822f4095d0cb/console.sql" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\style.css" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\carddio-template-convenios.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\header.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\includes\carddio-include-pre-agendamento.php" />
+        <option value="&lt;96b4aab1-1361-4520-8cfb-cbf746b889d3&gt;/D:\@@Files\Wamp\www\Carddio\wp-content\themes\carddio\contato.php" />
       </list>
     </option>
   </component>
@@ -142,6 +139,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RunDashboard">
@@ -168,21 +166,20 @@
       <updated>1559196772464</updated>
       <workItem from="1559196773986" duration="16650000" />
       <workItem from="1559278489347" duration="16467000" />
-      <workItem from="1559634454498" duration="11849000" />
+      <workItem from="1559634454498" duration="12448000" />
+      <workItem from="1559735011814" duration="22788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44966000" />
+    <option name="totallyTimeSpent" value="68353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -196,6 +193,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -209,8 +207,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/37859402-20d1-42fc-8a62-822f4095d0cb/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -5,6 +5,8 @@
 
 get_header();
 
+$exames = $wpdb->get_results('SELECT * FROM wp_exames');
+
 ?>
 </div>
 </div>
@@ -20,53 +22,15 @@ get_header();
 
             <div class="page-exames-list">
 
-                <div class="carddio-exame-page-button">
+                <?php foreach ($exames as $key => $data) : ?>
 
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
+                <div class="carddio-exame-page-button" data-exame="<?php echo $data->id ?>">
 
-                </div>
-
-                <div class="carddio-exame-page-button">
-
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
+                    <p><span class="fas fa-plus-circle"></span><?php echo $data->nome ?></p>
 
                 </div>
 
-                <div class="carddio-exame-page-button">
-
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
-
-                </div>
-
-                <div class="carddio-exame-page-button">
-
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
-
-                </div>
-
-                <div class="carddio-exame-page-button">
-
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
-
-                </div>
-
-                <div class="carddio-exame-page-button">
-
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
-
-                </div>
-
-                <div class="carddio-exame-page-button">
-
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
-
-                </div>
-
-                <div class="carddio-exame-page-button">
-
-                    <p><span class="fas fa-plus-circle"></span>Eletrocardiograma</p>
-
-                </div>
+                <?php endforeach; ?>
 
             </div>
 
@@ -78,38 +42,31 @@ get_header();
 
                 </div>
 
-                <div class="page-image">
+                <?php foreach ($exames as $key => $data) : ?>
 
-                    <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/carddio-sobre-01.jpg" alt="carddio-sobre" />
+                    <div class="exame-info" id="exame-<?php echo $data->id ?>">
 
-                </div>
+                        <div class="page-image">
 
-                <div class="page-text">
+                            <?php if ($data->img !== 'none') : ?>
 
-                    <h4>Eletrocardiograma</h4>
+                            <img src="<?php echo $data->img ?>" alt="carddio-sobre" />
 
-                    <p>
-                        Há mais de 25 anos em Taguatinga, a Cárddio promove a qualidade de vida das pessoas dando
-                        possibilidades para que seus clientes cuidem da saúde prolongando suas expectativas de vida.
+                            <?php endif; ?>
 
-                        Faz isso por meio da prevenção, fornecendo diagnósticos precisos e utilizando procedimentos
-                        cardiológicos humanizados. O corpo clínico é composto por especialistas em diversas subáreas da
-                        cardiologia, profissionais em constante atualização que oferecem atendimento inovador, responsável
-                        e dedicado ao paciente.
+                        </div>
 
+                        <div class="page-text">
 
+                            <h4><?php echo $data->nome ?></h4>
 
-                        Diretoria Biênio 2015/2017
+                            <p><?php echo $data->text ?></p>
 
-                        Diretora Presidente – Dra. Rosália Maria Almeida das Neves de Lima – CRM 4.624 DF
-                        Diretor Financeiro – Dr. Cecílio Kassem Salamé – CRM 5.455 DF
-                        Diretor Administrativo – Dr. Ederaldo Brandão Leite – CRM 5.315 DF
+                        </div>
 
-                        Uma grande vantagem de estar no Centro de Excelência Anchieta é que a Cárddio tem o apoio de toda
-                        a infraestrutura de um hospital de grande porte, muito bem localizado em Taguatinga Norte.
-                    </p>
+                    </div>
 
-                </div>
+                <?php endforeach; ?>
 
             </div>
 
@@ -117,6 +74,21 @@ get_header();
     </div>
 
 </div>
+
+<script>
+
+    var params = (new URL(document.location)).searchParams;
+
+    if (params.get('exame-id')) {
+
+        $('.carddio-exame-page-button').hide();
+        $('.page-exames-info').show();
+        $('#exame-' + params.get('exame-id') +'').show();
+
+    }
+
+
+</script>
 
 <?php include('includes/carddio-include-depoimentos.php') ?>
 
