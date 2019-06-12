@@ -19,9 +19,11 @@
 
             <textarea required name="mensagem" id="mensagem">Mensagem</textarea>
 
-            <button class="carddio-button-blue carddio-form-submit">Enviar</button>
+            <button id="pre-agendamento-enviar" class="carddio-button-blue carddio-form-submit">Enviar</button>
 
         </form>
+
+        <p id="pre-agendamento-sucesso" class="contato-enviado"></p>
 
         <script>
 
@@ -32,6 +34,8 @@
             });
 
             function enviarMsg() {
+
+                $('#pre-agendamento-enviar').prop('disabled', true).text('Enviando...');
 
                 var nome = $("#nome").val();
                 var email = $("#email").val();
@@ -47,7 +51,8 @@
 
                 }).done(function(e) {
 
-                    alert(e);
+                    $('#pre-agendamento-sucesso').text(e);
+                    $('#pre-agendamento-sucesso').show();
 
                 });
             }

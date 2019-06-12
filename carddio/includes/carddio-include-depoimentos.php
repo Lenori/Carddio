@@ -39,6 +39,8 @@ $depoimentos = $wpdb->get_results('SELECT * FROM wp_depoimentos');
 
     </div>
 
+    <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/ondas-depoimentos.png" alt="carddio-grafismos">
+
 </div>
 
 <script>

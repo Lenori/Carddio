@@ -117,8 +117,8 @@ if (isset($_POST['action'])) {
             </tr>
 
             <tr>
-                <th scope="row"><label for="membro-especialidade">Especialidade</label></th>
-                <td><input required name="membro-especialidade" type="text" id="membro-especialidade" class="regular-text" />
+                <th scope="row"><label for="membro-especialidade">Especialidade + resumo</label></th>
+                <td><textarea style="height: 300px;" required name="membro-especialidade" id="membro-especialidade" class="regular-text"></textarea>
             </tr>
 
             <tr>
@@ -146,7 +146,7 @@ if (isset($_POST['action'])) {
         <thead>
         <tr>
             <th scope="col" id='title' class='manage-column column-title column-primary'><span>Nome</span></th>
-            <th scope="col" id='title' class='manage-column column-title column-primary'><span>Especialidade</span></th>
+            <th scope="col" id='title' class='manage-column column-title column-primary'><span>Especialidade + Resumo</span></th>
             <th scope="col" id='title' class='manage-column column-title column-primary'><span>CRM</span></th>
         </tr>
         </thead>
@@ -169,7 +169,7 @@ if (isset($_POST['action'])) {
 
                 </td>
 
-                <td class="title column-title has-row-actions column-primary page-title" data-colname="Especialidade">
+                <td class="title column-title has-row-actions column-primary page-title" data-colname="Especialidade + Resumo">
 
                     <strong>
                         <?php echo $data->especialidade; ?>

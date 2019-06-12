@@ -1,16 +1,10 @@
 <?php
 
 $nome		= $_POST["nome"];
-$email		= $_POST["email"];
 $telefone	= $_POST["telefone"];
-$medico     = $_POST["medico"];
-$mensagem	= $_POST["mensagem"];
 
 $msg 		= "Nome: $nome\n\n
-               E-mail: $email\n\n
-               Telefone: $telefone\n\n
-               Médico: $medico\n\n
-               Mensagem: $mensagem\n";
+               Telefone: $telefone\n";
 
 require_once("mail/class.phpmailer.php");
 
@@ -42,11 +36,11 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
     }
 }
 
- if (smtpmailer('leolenori@gmail.com', 'emailcarddio@gmail.com', 'Carddio Website', 'Carddio | Nova mensagem de '. $nome .'', $msg)) {
+if (smtpmailer('leolenori@gmail.com', 'emailcarddio@gmail.com', 'Carddio Website', 'Carddio | Contato solicitado por '. $nome .'', $msg)) {
 
-    echo "Mensagem enviada com sucesso!";
+    echo "Contato solicitado com sucesso!";
 
- }
+}
 if (!empty($error))
     echo $error;
 

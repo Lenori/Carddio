@@ -10,7 +10,7 @@
 
     </div></a>
 
-    <div class="carddio-link">
+    <a href="<?php echo get_site_url() ;?>/paciente"><div class="carddio-link">
 
         <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/carddio-link-02.jpg" alt="carddio-links" />
 
@@ -18,9 +18,9 @@
 
         <p>Tudo o que você precisa saber sobre a Cárddio</p>
 
-    </div>
+    </div></a>
 
-    <div class="carddio-link">
+    <a href="<?php echo get_site_url() ;?>/cardiologia-geral-e-pediatrica"><div class="carddio-link">
 
         <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/carddio-link-03.jpg" alt="carddio-links" />
 
@@ -28,7 +28,7 @@
 
         <p></p>
 
-    </div>
+    </div></a>
 
     <a href="<?php echo get_site_url() ;?>/contato"><div class="carddio-link">
 

@@ -71,7 +71,7 @@ global $wpdb;
                             <div class="header-sub-menu" id="menu-02">
 
                                 <a href="<?php echo get_site_url() ;?>/exames"><p>Exames</p></a>
-                                <p>Consultas</p>
+                                <a href="<?php echo get_site_url() ;?>/contato"><p>Consultas</p></a>
                                 <a href="<?php echo get_site_url() ;?>/convenios"><p>Convênios</p></a>
 
                             </div>
@@ -98,7 +98,7 @@ global $wpdb;
             <div class="header-phone">
 
                 <i class="fas fa-phone"></i>
-                <p>(61) 3351-8393</p>
+                <a href="tel:+556133518393"><p>(61) 3351-8393</p></a>
 
             </div>
 
