@@ -47,7 +47,7 @@ if (isset($_POST['action'])) {
 
     if ($_POST['action'] == 'cadastrar-exame') {
 
-        if (isset($_FILES['exame-file'])) {
+        if (!isset($_FILES['exame-file'])) {
 
             $wpdb->insert(
 
@@ -193,6 +193,7 @@ if (isset($_POST['action'])) {
 
                     <div class="row-actions">
                         <span class='trash'><a href="<?php echo get_bloginfo('wpurl') ?>/wp-admin/admin.php?page=Exames&exame_id=<?php echo $data->id; ?>&action=excluir" class="submitdelete" aria-label="Excluir">Excluir</a></span>
+                        <span><a href="<?php echo get_bloginfo('wpurl') ?>/wp-admin/admin.php?page=editar_exame&exame_id=<?php echo $data->id; ?>" aria-label="Editar">Editar</a></span>
                     </div>
 
                 </td>

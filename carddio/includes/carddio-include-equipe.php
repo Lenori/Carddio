@@ -2,6 +2,8 @@
 
 $equipe = $wpdb->get_results('SELECT * FROM wp_equipe');
 
+$equipeCount = 0;
+
 ?>
 
         </div>
@@ -15,7 +17,9 @@ $equipe = $wpdb->get_results('SELECT * FROM wp_equipe');
 
         <?php foreach ($equipe as $key => $data) : ?>
 
-            <div class="equipe-item" data-equipe-item="<?php echo $data->id ?>">
+            <?php $equipeCount++; ?>
+
+            <div class="equipe-item" data-equipe-item="<?php echo $equipeCount ?>">
 
                 <img src="<?php echo $data->img ?>" alt="carddio-equipe" />
 
@@ -31,7 +35,7 @@ $equipe = $wpdb->get_results('SELECT * FROM wp_equipe');
 
     </div>
 
-    <a href="<?php echo get_site_url() ;?>/medicos"><p class="carddio-button-blue">Veja a nossa equipe <span class="fas fa-chevron-circle-right"></span></p></a>
+    <a href="<?php echo get_site_url() ;?>/medicos"><p class="carddio-button-blue">Ver todos os médicos <span class="fas fa-chevron-circle-right"></span></p></a>
 
 </div>
 

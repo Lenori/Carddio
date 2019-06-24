@@ -4,6 +4,9 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 date_default_timezone_set('America/Sao_Paulo');
 
 global $wpdb;
+global $imagens;
+
+$imagens = $wpdb->get_results('SELECT * FROM wp_images');
 
 ?>
 
@@ -55,9 +58,10 @@ global $wpdb;
 
                             <div class="header-sub-menu" id="menu-01">
 
-                                <a href="<?php echo get_site_url() ;?>/paciente"><p>Pacientes</p></a>
+                                <a href="<?php echo get_site_url() ;?>/paciente"><p>Informações ao Paciente</p></a>
                                 <a href="<?php echo get_site_url() ;?>/medicos"><p>Médicos</p></a>
-                                <a href="<?php echo get_site_url() ;?>/cardiologia-geral-e-pediatrica/"><p>Cardiologia Geral e Pediátrica</p></a>
+                                <a href="<?php echo get_site_url() ;?>/cardiologia-geral/"><p>Cardiologia Geral</p></a>
+                                <a href="<?php echo get_site_url() ;?>/cardiologia-pediatrica/"><p>Cardiologia Pediátrica</p></a>
                                 <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><p>História</p></a>
 
                             </div>
@@ -71,7 +75,7 @@ global $wpdb;
                             <div class="header-sub-menu" id="menu-02">
 
                                 <a href="<?php echo get_site_url() ;?>/exames"><p>Exames</p></a>
-                                <a href="<?php echo get_site_url() ;?>/contato"><p>Consultas</p></a>
+                                <a href="<?php echo get_site_url() ;?>#pre-agendamento"><p>Consultas</p></a>
                                 <a href="<?php echo get_site_url() ;?>/convenios"><p>Convênios</p></a>
 
                             </div>
@@ -85,7 +89,7 @@ global $wpdb;
                             <div class="header-sub-menu" id="menu-03">
 
                                 <a href="<?php echo get_site_url() ;?>/contato"><p>Contato</p></a>
-                                <a href="<?php echo get_site_url() ;?>/contato"><p>Localização</p></a>
+                                <a href="<?php echo get_site_url() ;?>/contato#contato-localizacao"><p>Localização</p></a>
 
                             </div>
 
@@ -95,15 +99,15 @@ global $wpdb;
 
             </div>
 
+            <div class="header-menu-toggle">
+
+                <i class="fas fa-bars"></i>
+
+            </div>
+
             <div class="header-phone">
 
                 <i class="fas fa-phone"></i>
                 <a href="tel:+556133518393"><p>(61) 3351-8393</p></a>
-
-            </div>
-
-            <div class="header-menu-toggle">
-
-                <i class="fas fa-bars"></i>
 
             </div>

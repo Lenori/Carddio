@@ -98,7 +98,7 @@ if (isset($_POST['action'])) {
 
             <tr>
                 <th scope="row"><label for="depoimento-referencia">Referência</label></th>
-                <td><input required name="depoimento-referencia" type="text" id="depoimento-referencia" class="regular-text" />
+                <td><input name="depoimento-referencia" type="text" id="depoimento-referencia" class="regular-text" />
             </tr>
 
         </table>
@@ -140,6 +140,7 @@ if (isset($_POST['action'])) {
 
                     <div class="row-actions">
                         <span class='trash'><a href="<?php echo get_bloginfo('wpurl') ?>/wp-admin/admin.php?page=Depoimentos&depoimento_id=<?php echo $data->id; ?>&action=excluir" class="submitdelete" aria-label="Excluir">Excluir</a></span>
+                        <span><a href="<?php echo get_bloginfo('wpurl') ?>/wp-admin/admin.php?page=editar_depoimento&depoimento_id=<?php echo $data->id; ?>" aria-label="Editar">Editar</a></span>
                     </div>
 
                 </td>

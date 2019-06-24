@@ -15,8 +15,6 @@ get_header();
 
 <?php include('includes/carddio-include-depoimentos.php') ?>
 
-<?php include('includes/carddio-include-exames.php') ?>
-
 <?php include('includes/carddio-include-equipe.php') ?>
 
 <?php include('includes/carddio-include-pre-agendamento.php') ?>

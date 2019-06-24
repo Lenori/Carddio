@@ -165,6 +165,7 @@ if (isset($_POST['action'])) {
 
                     <div class="row-actions">
                         <span class='trash'><a href="<?php echo get_bloginfo('wpurl') ?>/wp-admin/admin.php?page=Equipe&membro_id=<?php echo $data->id; ?>&action=excluir" class="submitdelete" aria-label="Excluir">Excluir</a></span>
+                        <span><a href="<?php echo get_bloginfo('wpurl') ?>/wp-admin/admin.php?page=editar_equipe&membro_id=<?php echo $data->id; ?>&action=excluir" aria-label="Excluir">Editar</a></span>
                     </div>
 
                 </td>

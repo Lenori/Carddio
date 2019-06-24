@@ -9,7 +9,7 @@
 
         <p class="carddio-button-blue carddio-open-chat">Chat</p>
         <a href="tel:+556133518393"><p class="carddio-button-blue">(61) 3351-8393</p></a>
-        <p class="carddio-button-blue carddio-open-form">Receba um contato da Cárddio</p>
+        <p class="carddio-button-blue carddio-open-form">Receba um telefonema da Carddio</p>
 
     </div>
 

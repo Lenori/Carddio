@@ -5,6 +5,12 @@
 
 get_header();
 
+$posts = get_posts(array(
+
+    'numberposts' => 0
+
+));
+
 ?>
 </div>
 </div>
@@ -20,50 +26,21 @@ get_header();
 
             <div class="carddio-paciente-content">
 
-                <iframe
+                <video
+                autoplay
+                controls>
 
-                    src="https://www.youtube.com/embed/X9ZZ6tcxArI?showinfo=0";
-                    frameborder="0";
-                    showinfo="0";
-                    allow="accelerometer;
-                    autoplay;
-                    encrypted-media;
-                    gyroscope;
-                    picture-in-picture"
-                    allowfullscreen>
+                    <source src="<?php echo $imagens[5]->url ?>">
 
-                </iframe>
+                </video>
 
-                <?php
+                <?php foreach ($posts as $post) : ?>
 
-                if (have_posts()) {
+                        <h1><?php echo get_the_title($post->ID) ?></h1>
 
-                    while (have_posts ()) {
+                        <?php echo get_post_field('post_content', $post->ID) ?>
 
-                        the_post();
-                        the_content();
-
-                    }
-
-                }
-
-                ?>
-
-            </div>
-
-            <div class="carddio-paciente-menu">
-
-                <h5>Acesso rápido</h5>
-
-                <ul>
-
-                    <a href="<?php echo get_site_url() ;?>/convenios"><li>Convênios<span class="fas fa-long-arrow-alt-right"></span></li></a>
-                    <a href="<?php echo get_site_url() ;?>/contato"><li>Consultas<span class="fas fa-long-arrow-alt-right"></span></li></a>
-                    <a href="<?php echo get_site_url() ;?>/exames"><li>Exames<span class="fas fa-long-arrow-alt-right"></span></li></a>
-                    <a href="<?php echo get_site_url() ;?>/medicos"><li>Médicos<span class="fas fa-long-arrow-alt-right"></span></li></a>
-                    <a href="<?php echo get_site_url() ;?>/contato"><li>Contatos<span class="fas fa-long-arrow-alt-right"></span></li></a>
-
-                </ul>
+                <?php endforeach; ?>
 
             </div>
 

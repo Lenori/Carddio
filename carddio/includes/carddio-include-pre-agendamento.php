@@ -2,9 +2,11 @@
 
     <div class="pre-agendamento-text">
 
+        <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/img/carddio-logo.jpg" alt="carddio-logo" />
+
         <h3>Pré-agendamento</h3>
 
-        <p>Nos mande uma mensagem para agendar um horário ou tirar dúvidas!</p>
+        <p>Reserve um horário na Carddio, nós entraremos em contato com você para confirmar.</p>
 
     </div>
 
@@ -13,11 +15,11 @@
         <form class="carddio-form" id="cform" onsubmit="enviarMsg()">
 
             <input required type="text" name="nome" id="nome" placeholder="Nome" />
-            <input required class="carddio-input-half" type="email" name="email" id="email" placeholder="E-mail" />
+            <input class="carddio-input-half" type="email" name="email" id="email" placeholder="E-mail" />
             <input required class="carddio-input-half" type="number" name="telefone" id="telefone" placeholder="Telefone" />
             <input type="text" name="medico" id="medico" placeholder="Médico (a)" />
 
-            <textarea required name="mensagem" id="mensagem">Mensagem</textarea>
+            <textarea name="mensagem" id="mensagem">Mensagem</textarea>
 
             <button id="pre-agendamento-enviar" class="carddio-button-blue carddio-form-submit">Enviar</button>
 

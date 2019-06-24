@@ -20,15 +20,21 @@ $exames = $wpdb->get_results('SELECT * FROM wp_exames');
 
             <h3>Exames</h3>
 
+            <div class="page-image">
+
+                <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php echo get_the_title() ?>" />
+
+            </div>
+
             <div class="page-exames-list">
 
                 <?php foreach ($exames as $key => $data) : ?>
 
-                <div class="carddio-exame-page-button" data-exame="<?php echo $data->id ?>">
+                <a href="?exame-id=<?php echo $data->id ?>"><div class="carddio-exame-page-button" data-exame="<?php echo $data->id ?>">
 
                     <p><span class="fas fa-plus-circle"></span><?php echo $data->nome ?></p>
 
-                </div>
+                </div></a>
 
                 <?php endforeach; ?>
 
@@ -36,11 +42,11 @@ $exames = $wpdb->get_results('SELECT * FROM wp_exames');
 
             <div class="page-exames-info">
 
-                <div class="exame-page-close-button">
+                <!--<div class="exame-page-close-button">
 
                     <p class="exame-close"><span class="exame-close exame-page-close fas fa-window-close"></span>Voltar aos exames</p>
 
-                </div>
+                </div>-->
 
                 <?php foreach ($exames as $key => $data) : ?>
 

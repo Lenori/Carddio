@@ -27,8 +27,8 @@
                     <a href="<?php echo get_site_url() ;?>/sobre-a-carddio"><li>A Cárddio</li></a>
                     <a href="<?php echo get_site_url() ;?>/medicos"><li>Médicos</li></a>
                     <a href="<?php echo get_site_url() ;?>/paciente"><li>Pacicentes</li></a>
-                    <a href="<?php echo get_site_url() ;?>/contato"><li>Consultas</li></a>
-                    <a href="<?php echo get_site_url() ;?>/cardiologia-geral-e-pediatrica"><li>Cardiologia</li></a>
+                    <a href="<?php echo get_site_url() ;?>/#pre-agendamento"><li>Consultas</li></a>
+                    <a href="<?php echo get_site_url() ;?>/cardiologia-geral"><li>Cardiologia</li></a>
 
                 </ul>
 
@@ -38,7 +38,7 @@
                     <a href="<?php echo get_site_url() ;?>/exames"><li>Exames</li></a>
                     <a href="<?php echo get_site_url() ;?>/convenios"><li>Convênios</li></a>
                     <a href="<?php echo get_site_url() ;?>/contato"><li>Contato</li></a>
-                    <a href="<?php echo get_site_url() ;?>/contato"><li>Localização</li></a>
+                    <a href="<?php echo get_site_url() ;?>/contato#localizacao"><li>Localização</li></a>
 
                 </ul>
 

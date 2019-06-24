@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     .carddio-button-blue {
         font-size: 11px;
@@ -42,7 +42,7 @@
     }
 
     .header-sub-menu {
-        display: block;
+        display: block !important;
         position: relative;
         top: 0;
         left: 0;
@@ -68,7 +68,7 @@
     }
 
     .header-logo, .header-phone {
-        width: 50% !important;
+        width: 40% !important;
         height: 80px !important;
         text-align: center;
     }
@@ -148,6 +148,10 @@
         text-align: center;
     }
 
+    .carddio-depoimentos {
+        min-height: 710px;
+    }
+
     .carddio-depoimento {
         width: 100%;
         margin: 0 auto 45px;
@@ -200,7 +204,7 @@
     }
 
     .equipe-item {
-        width: 100%;
+        width: 100% !important;
         margin: 0 auto 40px;
         min-height: 0;
     }
@@ -222,6 +226,10 @@
 
     .carddio-pre-agendamento {
         padding: 21px 0;
+    }
+
+    .carddio-pre-agendamento img {
+        width: 75%;             
     }
 
     .pre-agendamento-text {
@@ -302,13 +310,13 @@
     }
 
     .convenios-text ul {
-        width: 100%;
+        width: 100% !important;
+        margin-bottom: 10px;
         text-align: center;
         padding: 20px 0;
     }
 
     .carddio-exame-page-button {
-        width: 90%;
         padding: 20px;
         margin: auto;
         float: none;
@@ -372,11 +380,108 @@
 
 }
 
-@media only screen and (max-width: 900px) {	
+@media (max-width: 900px) {
 	
 
     .carddio-depoimentos img {
         display: none;
     }
+
+    .carddio-depoimentos {
+        min-height: 702px;
+    }
+
+    .carddio-exame-page-button {
+        width: 90%;
+    }
+
+    .page-exames-list {
+
+        width: 100%;
+        float: left;
+
+    }
 	
+}
+
+@media (max-width: 1620px) and (min-width: 1351px) {
+
+    .carddio-contato-item {
+        width: 50%;
+    }
+
+    .carddio-link {
+        min-height: 310px;
+    }
+
+    .equipe-item {
+        width: 50%;
+    }
+
+    .convenios-text ul {
+        width: 49%;
+    }
+
+    .carddio-exame-page-button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1400px) {
+
+    .carddio-equipe .carddio-button-blue {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1350px) and (min-width: 1201px) {
+
+    .carddio-fale-com-buttons p {
+        font-size: 14px;
+    }
+
+    .carddio-exame-page-button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 901px) {
+
+    .carddio-exame-button {
+        font-size: 18px;
+    }
+
+    .carddio-fale-com-buttons p {
+        font-size: 12px;
+    }
+
+    .equipe-item {
+        width: 50%;
+    }
+	
+	.header-phone i, .header-phone p {
+		font-size: 20px;
+	}
+
+    .carddio-exame-page-button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .carddio-equipe .carddio-button-blue {
+        font-size: 12px;
+    }
+
+    .carddio-fale-com-buttons p {
+        font-size: 11px;
+    }
+	
+	.header-phone i, .header-phone p {
+		font-size: 17px;
+	}
 }

@@ -31,6 +31,16 @@ $(document).ready(function() {
 
     });
 
+    $(window).on('click', function() {
+
+        if ($('.header-sub-menu').is(':visible')) {
+
+            $('.header-sub-menu').hide();
+
+        }
+
+    });
+
     $('.header-menu-toggle').on('click', function() {
 
         $('.header-menu').show();
