@@ -35,6 +35,8 @@ $posts = get_posts(array(
                 </video>
 
                 <?php foreach ($posts as $post) : ?>
+				
+						<img src="<?php echo get_the_post_thumbnail_url($data->ID); ?>">
 
                         <h1><?php echo get_the_title($post->ID) ?></h1>
 

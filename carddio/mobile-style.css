@@ -425,6 +425,10 @@
     .carddio-exame-page-button {
         width: 100%;
     }
+	
+	.carddio-link p {
+    font-size: 15px;
+	}
 
 }
 

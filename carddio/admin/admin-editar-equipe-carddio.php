@@ -112,14 +112,14 @@ if (isset($_POST['action'])) {
                         <td><textarea style="height: 300px;" required name="membro-especialidade" id="membro-especialidade" class="regular-text"><?php echo $data->especialidade ?></textarea>
                     </tr>
 
+					<tr>
+						<th scope="row"><label for="membro-crm">CRM</label></th>
+						<td><input required name="membro-crm" type="text" id="membro-crm" value="<?php echo $data->crm ?>" class="regular-text" />
+					</tr>
+
                 <?php endif; ?>
 
             <?php endforeach; ?>
-
-            <tr>
-                <th scope="row"><label for="membro-crm">CRM</label></th>
-                <td><input required name="membro-crm" type="text" id="membro-crm" value="<?php echo $data->crm ?>" class="regular-text" />
-            </tr>
 
         </table>
 

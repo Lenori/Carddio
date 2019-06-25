@@ -306,6 +306,7 @@ body {
     font-size: 17px;
     text-align: left;
     margin-left: 9px;
+	width: 90%;
 
 }
 
@@ -833,6 +834,13 @@ body {
     width: 40%;
     float: left;
 
+}
+
+.carddio-paciente-content img {
+	
+	max-width: 100%;
+	margin: 20px auto;
+	
 }
 
 .carddio-paciente-menu {
